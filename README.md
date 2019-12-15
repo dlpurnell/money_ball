@@ -1,2 +1,6 @@
 # money_ball
 predict the number of wins for the oakland athletics
+
+Our analysis produced an Ordinary Least Squares (OLS) Regression model that represents 42% of the variability in the estimated number of wins of a 162-game baseball season for a team.
+
+The purpose of this assignment is to develop an ordinary least squares (OLS) regression model to predict the number of wins for a baseball team during a 162-game season. During this project will be emulating the efforts of the Moneyball model developed by Billy Beane and Paul DePodesta of the Oakland Athletics Baseball Club that was used to hire and trade players. Our methodology will consist of different phases to identify the OLS regression model that best represents the variability in the response variable Target_Wins. We will initiate our efforts with exploratory data analysis to understand our data, progress to data manipulation (imputation & transformations) to prepare our data for OLS regression, then finally initiate model development and selection using automated variable selection techniques (forward, backward, stepwise) and criteria (Adjusted R-Square, AIC, BIC) to develop the model that best predicts the number of wins for a baseball team. Once we’ve selected the best model for our analysis, we will develop a scoring routine that will produce the predicted number of wins for a 162-game season.
